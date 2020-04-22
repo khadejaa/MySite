@@ -22,3 +22,28 @@
     column-count: 3;
   }
 }
+
+.maillist{
+  margin-top: 50px;
+}
+
+.translate-btn .btn {
+  margin-top: 40px;
+  background: #d2fafb;
+  color: #512b58;
+  border: 1px solid #fe346e;
+
+}
+
+/* .translate-btn .btn :hover {
+  margin-top: 40px;
+  background: #fe346e;
+  color: #512b58;
+  border: 1px solid #fe346e;
+} */
+
+.btn:hover {
+  border: 1px solid #fe346e !important;
+  background: #fe346e !important;
+  color: #000000 !important;
+}
