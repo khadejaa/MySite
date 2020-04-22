@@ -6,6 +6,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@200&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
   <link rel="stylesheet" href="css/animate.css">
   <link rel="stylesheet" href="css/owl.carousel.min.css">
@@ -19,7 +20,7 @@
   <link rel="stylesheet" href="css/myStyle.css">
   <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 
-  <script src="js/translate.js"></script>
+  <script src="js/translateFile.js"></script>
 
 </head>
 
@@ -32,13 +33,12 @@
       <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="oi oi-menu"></span> Menu
       </button>
-
       <div class="collapse navbar-collapse" id="ftco-nav">
         <ul class="navbar-nav nav ml-auto">
           <li class="nav-item"><a href="#home-section" key="home" class="lang nav-link"><span>Home</span></a></li>
           <li class="nav-item"><a href="#about-section" key="about" class="lang nav-link"><span>About Me</span></a></li>
           <li class="nav-item dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-            <a href="#resume-section" data-toggle="#dropdown" key="resume" class="lang nav-link dropdown-toggle"><span>My Resume</span></a>
+            <a href="#resume-section" data-toggle="#dropdown" key="resume" class="lang nav-link dropdown-toggle"><span>My Resume </span></a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown" id="dropdown">
               <li> <a key="edu" class="lang dropdown-item" href="#page-1">Education</a> </li>
               <li> <a key="exp" class="lang dropdown-item" href="#page-2">Volunteer Experiences</a> </li>
@@ -60,28 +60,19 @@
       <div class="row no-gutters slider-text js-fullheight justify-content-center align-items-center">
         <div class="col-lg-8 col-md-6 ftco-animate d-flex align-items-center">
           <div class="text text-center">
-            <h3> <span class="subheading" style="color:#fe346e;">Hey! I am</span> </h3>
-            <h1>Khadejaa</h1>
+            <h3> <span class="lang subheading" key="greating" style="color:#fe346e;">Hey! I am</span> </h3>
+            <h1 class="lang" key='myName' >Khadejaa</h1>
             </h2>
-            <h3> Computer Science Student, Full Stack Developer, EV3 Robot trainer, Blogger And More</h3>
-
+            <h3 class="lang" key='myRole'> Computer Science Student, Full Stack Developer, EV3 Robot trainer, Blogger And More</h3>
             <div class=" translate-btn  justify-content-center align-items-center " >
               <button id="en" class="translate btn  py-3 px-5">English</button>
               <button id="ar" class="translate btn  py-3 px-5">العربية</button>
             </div>
           </div>
-
         </div>
-
       </div>
-
     </div>
     </div>
-    <!-- <div class="mouse">
-      <a href="#" class="mouse-icon">
-        <div class="mouse-wheel"><span class="ion-ios-arrow-round-down"></span></div>
-      </a>
-    </div> -->
   </section>
 
   <section class="ftco-about img ftco-section ftco-no-pt ftco-no-pb" id="about-section">
@@ -97,18 +88,18 @@
         <div class="col-md-6 col-lg-6 pl-md-5 py-5">
           <div class="row justify-content-start pb-3">
             <div class="col-md-12 heading-section ftco-animate">
-              <!-- <h1 class="big">About </h1> -->
-              <h2 class="mb-4">About Me</h2>
-              <!-- <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p> -->
-              <ul class="about-info mt-4 px-md-0 px-2">
-                <li class="d-flex"><span>Name:</span> <span>Khadejaa Alshehri</span></li>
-                <li class="d-flex"><span>Address:</span> <span>Makkah , KSA</span></li>
-                <li class="d-flex"><span>Email:</span> <span>Khadejaa.cs@gmail.com</span></li>
-                <li class="d-flex"><span>Phone: </span> <span>+966537711899</span></li>
-              </ul>
+              <h2 class="lang mb-4" key="aboutMe">About Me</h2>
+              <h6 class="lang" key="headOfAbout">
+                Computer Science is my other family that i chose it.
+              </h6>
+                <p class="lang" key="bodyOfAbout">
+                I always found my self inside the lines of code and
+                completely focus during programming and forget the world.
+                I love the process of learning new concepts, skills and bake a cake.
+                lately, I start learning drawing and the image of the left is my favorate painting that reflect how i see the world (half orgnized half messy)
+              </p>
             </div>
           </div>
-
         </div>
       </div>
     </div>
@@ -118,27 +109,17 @@
   <section class="ftco-section ftco-no-pb goto-here" id="resume-section">
     <div class="container">
       <div class="row justify-content-center">
-        <!-- <div class="col-md-3">
-          <nav id="navi">
-            <ul>
-              <li><a href="#page-1">Education</a></li>
-              <li><a href="#page-2">Experience</a></li>
-              <li><a href="#page-3">Skills</a></li>
-              <li><a href="#page-4">Awards</a></li>
-            </ul>
-          </nav>
-        </div> -->
         <div class="col-md-9">
           <div id="page-1" class="page one">
-            <h2 class="heading">Education</h2>
+            <h2 class="lang heading" key="education">Education</h2>
             <div class="resume-wrap d-flex ftco-animate">
               <div class="icon d-flex align-items-center justify-content-center">
                 <span class="flaticon-ideas"></span>
               </div>
               <div class="text pl-3">
-                <span class="date">2013-2017</span>
-                <h2>Bachelor's Degree in Computer Science</h2>
-                <span class="position">Umm Al-Qura University</span>
+                <span class="lang date" key="BachelorDate">2013-2017</span>
+                <h2 class="lang" key="Bachelor">Bachelor's Degree in Computer Science</h2>
+                <span class="lang position" key="UQU">Umm Al-Qura University</span>
                 <!-- <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p> -->
               </div>
             </div>
@@ -147,9 +128,9 @@
                 <span class="flaticon-ideas"></span>
               </div>
               <div class="text pl-3">
-                <span class="date">2019- 2022 (Expected)</span>
-                <h2>Master's Degree in Computer Science</h2>
-                <span class="position">King Abdulaziz University</span>
+                <span class="lang date" key="MasterDate">2019- 2022 (Expected)</span>
+                <h2 class="lang" key="Master" >Master's Degree in Computer Science</h2>
+                <span class="lang position" key="KAU">King Abdulaziz University</span>
                 <!-- <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p> -->
               </div>
             </div>
@@ -158,9 +139,9 @@
                 <span class="flaticon-ideas"></span>
               </div>
               <div class="text pl-3">
-                <span class="date">2018</span>
-                <h2> Front-End Web Developer Nanodegree</h2>
-                <span class="position">Udacity</span>
+                <span class="lang date" key="FEWDdate">2018</span>
+                <h2 class="lang" key="FEWD"> Front-End Web Developer Nanodegree</h2>
+                <span class="lang position" key="Udacity">Udacity</span>
                 <!-- <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p> -->
               </div>
             </div>
@@ -169,24 +150,24 @@
                 <span class="flaticon-ideas"></span>
               </div>
               <div class="text pl-3">
-                <span class="date">2019</span>
-                <h2>iOS Developer Nanodegree Program</h2>
-                <span class="position">Udacity</span>
+                <span class="lang date" key="iOSdate">2019</span>
+                <h2 class="lang" key="iOS">iOS Developer Nanodegree Program</h2>
+                <span class="lang position" key="Udacity">Udacity</span>
                 <!-- <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p> -->
               </div>
             </div>
           </div>
 
           <div id="page-2" class="page two">
-            <h2 class="heading">My Volunteer Experiences</h2>
+            <h2 class="lang heading" key="Experiences">My Volunteer Experiences</h2>
             <div class="resume-wrap d-flex ftco-animate">
               <div class="icon d-flex align-items-center justify-content-center">
                 <span class="flaticon-ideas"></span>
               </div>
               <div class="text pl-3">
-                <span class="date">2017-2019</span>
-                <h2>A Member In Akam Team</h2>
-                <span class="position">Wa3i</span>
+                <span class="lang date" key="akamDate">2017-2019</span>
+                <h2 class="lang" key="akam">A Member In Akam Team</h2>
+                <span class="lang position" key="wa3i">Wa3i</span>
                 <!-- <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p> -->
               </div>
             </div>
@@ -195,10 +176,9 @@
                 <span class="flaticon-ideas"></span>
               </div>
               <div class="text pl-3">
-                <span class="date">2014-2017</span>
-                <h2>SEU Leader</h2>
-                <span class="position">College Of Computers And Information Systems</span>
-                <!-- <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p> -->
+                <span class="lang date" key="SEUdate">2015-2017</span>
+                <h2 class="lang" key="SEU">SEU Leader</h2>
+                <span class="lang position" key="College">College Of Computers And Information Systems</span>
               </div>
             </div>
             <div class="resume-wrap d-flex ftco-animate">
@@ -206,19 +186,18 @@
                 <span class="flaticon-ideas"></span>
               </div>
               <div class="text pl-3">
-                <span class="date">2016-2017</span>
-                <h2>a Member Then Leader of 'After The Coffee' Reading Club</h2>
-                <span class="position">Rushd Club In Um Al-Qraa University</span>
-                <!-- <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p> -->
+                <span class="lang date" key="coffeeDate">2016-2017</span>
+                <h2 class="lang" key="coffee">a Member Then Leader of 'After The Coffee' Reading Club</h2>
+                <span class="lang position" key="Rushd">Rushd Club In Um Al-Qraa University</span>
               </div>
             </div>
           </div>
           <div id="page-3" class="page three">
-            <h2 class="heading">Skills</h2>
+            <h2 class="lang heading" key="skills">Skills</h2>
             <div class="row progress-circle mb-5">
               <div class="col-lg-4 mb-4">
                 <div class="bg-white rounded-lg shadow p-4">
-                  <h2 class="h5 font-weight-bold text-center mb-4">Programing </h2>
+                  <h2 class="lang h5 font-weight-bold text-center mb-4" key="Programing">Programing </h2>
                   <!-- Progress bar 1 -->
                   <div class="progress mx-auto" data-value='90'>
                     <span class="progress-left">
@@ -228,7 +207,7 @@
                       <span class="progress-bar border-primary"></span>
                     </span>
                     <div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
-                      <div class="h2 font-weight-bold">90<sup class="small">%</sup></div>
+                      <div class=" h2 font-weight-bold" >90<sup class="small">%</sup></div>
                     </div>
                   </div>
                 </div>
@@ -236,7 +215,7 @@
 
               <div class="col-lg-4 mb-4">
                 <div class="bg-white rounded-lg shadow p-4">
-                  <h2 class="h5 font-weight-bold text-center mb-4">Managing Dialogue and Discussion</h2>
+                  <h2 class="lang h5 font-weight-bold text-center mb-4" key="Discussion">Managing Dialogue and Discussion</h2>
                   <!-- Progress bar 1 -->
                   <div class="progress mx-auto" data-value='75'>
                     <span class="progress-left">
@@ -254,7 +233,7 @@
 
               <div class="col-lg-4 mb-4">
                 <div class="bg-white rounded-lg shadow p-4">
-                  <h2 class="h5 font-weight-bold text-center mb-4">Public Speak</h2>
+                  <h2 class="lang h5 font-weight-bold text-center mb-4" key="speek">Public Speak</h2>
                   <!-- Progress bar 1 -->
                   <div class="progress mx-auto" data-value='60'>
                     <span class="progress-left">
@@ -272,7 +251,7 @@
 
               <div class="col-lg-4 mb-4">
                 <div class="bg-white rounded-lg shadow p-4">
-                  <h2 class="h5 font-weight-bold text-center mb-4"> Self Learning </h2>
+                  <h2 class="lang h5 font-weight-bold text-center mb-4" key="self"> Self Learning </h2>
                   <!-- Progress bar 1 -->
                   <div class="progress mx-auto" data-value='85'>
                     <span class="progress-left">
@@ -290,7 +269,7 @@
 
               <div class="col-lg-4 mb-4">
                 <div class="bg-white rounded-lg shadow p-4">
-                  <h2 class="h5 font-weight-bold text-center mb-4"> Teaching and Training </h2>
+                  <h2 class="lang h5 font-weight-bold text-center mb-4" key="Teaching"> Teaching and Training </h2>
                   <!-- Progress bar 1 -->
                   <div class="progress mx-auto" data-value='70'>
                     <span class="progress-left">
@@ -308,7 +287,7 @@
 
               <div class="col-lg-4 mb-4">
                 <div class="bg-white rounded-lg shadow p-4">
-                  <h2 class="h5 font-weight-bold text-center mb-4"> Digital Sketch </h2>
+                  <h2 class="lang h5 font-weight-bold text-center mb-4" key="sketch"> Digital Sketch </h2>
                   <!-- Progress bar 1 -->
                   <div class="progress mx-auto" data-value='20'>
                     <span class="progress-left">
@@ -327,16 +306,15 @@
           </div>
 
           <div id="page-4" class="page four">
-            <h2 class="heading">Awards</h2>
+            <h2 class="lang heading" key="Awards">Awards</h2>
             <div class="resume-wrap d-flex ftco-animate">
               <div class="icon d-flex align-items-center justify-content-center">
                 <span class="flaticon-ideas"></span>
               </div>
               <div class="text pl-3">
-                <span class="date">2016</span>
-                <h2>Top 5 Best leaders</h2>
-                <span class="position">Be Leader Program </span>
-                <!-- <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p> -->
+                <span class="lang date" key="LeaderDate">2016</span>
+                <h2 class="lang" key="leaders">Top 5 Best leaders</h2>
+                <span class="lang position" key="leadersProgram">Be Leader Program </span>
               </div>
             </div>
             <div class="resume-wrap d-flex ftco-animate">
@@ -344,10 +322,9 @@
                 <span class="flaticon-ideas"></span>
               </div>
               <div class="text pl-3">
-                <span class="date">2019</span>
-                <h2>The Second Medal In EOSS</h2>
-                <span class="position">Faculty of Computing and Information Technology </span>
-                <!-- <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p> -->
+                <span class="lang date" key="medalDate">2019</span>
+                <h2 class="lang" key="medal">The Second Medal In EOSS | Research Track</h2>
+                <span class="lang position" key="FCIT">Faculty of Computing and Information Technology | KAU </span>
               </div>
             </div>
           </div>
@@ -362,8 +339,7 @@
       <div class="row justify-content-center py-5 mt-5">
         <div class="col-md-12 heading-section text-center ftco-animate">
           <h1 class="big big-2">Services</h1>
-          <h2 class="mb-4">Services</h2>
-          <!-- <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p> -->
+          <h2 class="lang mb-4" key="Services">Services</h2>
         </div>
       </div>
 
@@ -374,8 +350,8 @@
               <i class="flaticon-analysis"></i>
             </span>
             <div class="desc">
-              <h3 class="mb-5">Teaching</h3>
-              <p>if you have any question related to computer sciences courses you can ask me to help you understand it .</p>
+              <h3 class="lang mb-5" key="Teaching">Teaching</h3>
+              <p class="lang" key="TeachingDescription">If you have any question related to computer sciences courses you can ask me to help you understand it .</p>
             </div>
           </a>
         </div>
@@ -386,8 +362,8 @@
               <i class="flaticon-web-design"></i>
             </span>
             <div class="desc">
-              <h3 class="mb-5">Web Developer</h3>
-              <p>Do you like my personal website? I can develop one for you.</p>
+              <h3 class="lang mb-5" key="web">Web Developer</h3>
+              <p class="lang" key="webDescription">Do you like my personal website? I can develop one for you.</p>
             </div>
           </a>
         </div>
@@ -398,8 +374,8 @@
               <i class="flaticon-innovation"></i>
             </span>
             <div class="desc">
-              <h3 class="mb-5">EV3 Robot Training </h3>
-              <p>Do you want to learn how to programing ev3 robot ? I can help you.</p>
+              <h3 class="lang mb-5" key="EV3">EV3 Robot Training </h3>
+              <p class="lang" key="EV3Description">Do you want to learn how to programing ev3 robot ? I can help you.</p>
             </div>
           </a>
         </div>
@@ -413,9 +389,8 @@
     <div class="container-fluid px-md-0">
       <div class="row no-gutters justify-content-center pb-5">
         <div class="col-md-12 heading-section text-center ftco-animate">
-          <h1 class="big big-2">Projects</h1>
-          <h2 class="mb-4">My Last Achievements</h2>
-          <p> Who you are tomorrow begins with what you do today. – Tim Fargo </p>
+          <h2 class="lang mb-4" key="Achievements">My Last Achievements</h2>
+          <p class="lang" key="quotes"> Who you are tomorrow begins with what you do today. – Tim Fargo </p>
         </div>
       </div>
       <div class="row no-gutters">
@@ -424,8 +399,8 @@
           <div class="project shadow img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/iOS.png);">
             <div class="overlay"></div>
             <div class="text text-center p-4">
-              <h3><a href="#">Certificate of iOS Nanodegree</a></h3>
-              <span>Self Learning</span>
+              <h3> <a class="lang" key="iosCertificate">Certificate of iOS Nanodegree</a></h3>
+              <span class="lang" key="self">Self Learning</span>
             </div>
           </div>
         </div>
@@ -434,8 +409,8 @@
           <div class="project shadow img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/drwing.png);">
             <div class="overlay"></div>
             <div class="text text-center p-4">
-              <h3><a href="#"> Above The Fog </a></h3>
-              <span>Digital Sketch, One of my favorite digital drawings.</span>
+              <h3><a class="lang" key="fog"> Above The Fog </a></h3>
+              <span class="lang" key="fogDescription">Digital Sketch, One of my favorite digital drawings.</span>
             </div>
           </div>
         </div>
@@ -444,8 +419,8 @@
           <div class="project shadow img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/cs2.png);">
             <div class="overlay"></div>
             <div class="text text-center p-4">
-              <h3><a href="#">CS Student Projects </a></h3>
-              <span>Web Design, Web-based system for FCIT of King Abdulaziz University Students that collecting there projects in one place</span>
+              <h3><a class="lang" key="cs">CS Student Projects </a></h3>
+              <span class="lang" key="csDescription">Web Design, Web-based system for FCIT of King Abdulaziz University Students that collecting there projects in one place</span>
             </div>
           </div>
         </div>
@@ -453,8 +428,8 @@
           <div class="project shadow img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/ML.png);">
             <div class="overlay"></div>
             <div class="text text-center p-4">
-              <h3><a href="#"> Certificate of Machine Learning Course </a></h3>
-              <span>Self Learning</span>
+              <h3><a class="lang" key="ML"> Certificate of Machine Learning Course </a></h3>
+              <span class="lang" key="self">Self Learning</span>
             </div>
           </div>
         </div>
@@ -462,8 +437,8 @@
           <div class="project shadow img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/reading.png);">
             <div class="overlay"></div>
             <div class="text text-center p-4">
-              <h3><a href="#">Reading Workshop</a></h3>
-              <span>Public Speak, One of my favorite workshop that i presented it more than once. </span>
+              <h3><a class="lang" key="reading">Reading Workshop</a></h3>
+              <span class="lang" key="readingDescription">Public Speak, One of my favorite workshop that i presented it more than once. </span>
             </div>
           </div>
         </div>
@@ -471,8 +446,8 @@
           <div class="project shadow img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/calander.jpg);">
             <div class="overlay"></div>
             <div class="text text-center p-4">
-              <h3><a href="#">Digital Calendar</a></h3>
-              <span>My first experience to designing arabic digital calendar that work friendly with ipad and its pen</span>
+              <h3><a class="lang" key="calander">Digital Calendar</a></h3>
+              <span class="lang" key="calanderDescription">My first experience to designing arabic digital calendar that work friendly with ipad and its pen</span>
             </div>
           </div>
         </div>
@@ -487,9 +462,8 @@
     <div class="container">
       <div class="row justify-content-center mb-5 pb-5">
         <div class="col-md-7 heading-section text-center ftco-animate">
-          <h1 class="big big-2">Blog</h1>
-          <h2 class="mb-4">My Blog</h2>
-          <p>The writing is my way to express my ideas and save my memories </p>
+          <h2 class="lang mb-4" key="blog">My Blog</h2>
+          <p class="lang" key="quotesBlog">The writing is my way to express my ideas and save my memories </p>
         </div>
       </div>
 
@@ -499,7 +473,7 @@
             <a href="https://zeze212blog.wordpress.com/2017/06/14/%d8%ad%d9%83%d8%a7%d9%8a%d8%a9-%d8%aa%d8%ae%d8%b1%d8%ac%d9%86%d8%a7-%f0%9f%8e%93/" class="block-20" style="background-image: url('images/blog1.png');">
             </a>
             <div class="text mt-3 float-right d-block">
-              <h3 class="heading"><a href="https://zeze212blog.wordpress.com/2017/06/14/%d8%ad%d9%83%d8%a7%d9%8a%d8%a9-%d8%aa%d8%ae%d8%b1%d8%ac%d9%86%d8%a7-%f0%9f%8e%93/">
+              <h3 class="heading"><a class="lang" key="Graduation" href="https://zeze212blog.wordpress.com/2017/06/14/%d8%ad%d9%83%d8%a7%d9%8a%d8%a9-%d8%aa%d8%ae%d8%b1%d8%ac%d9%86%d8%a7-%f0%9f%8e%93/">
                   Our Graduation Story (undergraduate project)</a></h3>
               <div class="d-flex align-items-center mb-3 meta">
               </div>
@@ -512,7 +486,7 @@
               class="block-20" style="background-image: url('images/blog2.jpg');">
             </a>
             <div class="text mt-3 float-right d-block">
-              <h3 class="heading"><a
+              <h3 class="heading"><a class="lang" key="wadi"
                   href="https://zeze212blog.wordpress.com/2016/12/09/%d8%aa%d8%ac%d8%b1%d8%a8%d8%aa%d9%8a-%d9%81%d9%8a-%d8%a7%d9%84%d8%aa%d8%af%d8%b1%d9%8a%d8%a8-%d8%a7%d9%84%d8%b5%d9%8a%d9%81%d9%8a-%d8%a8%d9%88%d8%a7%d8%af%d9%8a-%d9%85%d9%83%d8%a9/">
                   My experience in summer training in Wadi Makkah</a></h3>
               <div class="d-flex align-items-center mb-3 meta">
@@ -526,7 +500,7 @@
               class="block-20" style="background-image: url('images/blog3.png');">
             </a>
             <div class="text mt-3 float-right d-block">
-              <h3 class="heading"><a
+              <h3 class="heading"><a class="lang" key="30days"
                   href="https://zeze212blog.wordpress.com/2017/12/21/%d8%aa%d8%ac%d8%b1%d8%a8%d8%a9-%d9%a3%d9%a0-%d9%8a%d9%88%d9%85%d8%a7%d9%8b-%d8%a8%d8%af%d9%88%d9%86-%d8%b4%d8%a8%d9%83%d8%a7%d8%aa-%d8%a7%d8%ac%d8%aa%d9%85%d8%a7%d8%b9%d9%8a%d8%a9/">
                   30 Days without social media</a></h3>
               <div class="d-flex align-items-center mb-3 meta">
@@ -545,8 +519,7 @@
     <div class="container container-fluid px-md-5">
       <div class="row justify-content-center mb-5 pb-3">
         <div class="col-md-7 heading-section text-center ftco-animate">
-          <h1 class="big big-2">They Said</h1>
-          <h2 class="mb-4">They Said</h2>
+          <h2 class="lang mb-4" key="Said">They Said</h2>
         </div>
       </div>
 
@@ -560,9 +533,9 @@
               <img src="images/fatma.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <div class="card-text ">
-                  <p><span> I enjoyed working with Khadejaa during our graduation project. She is a positive, wonderful, honest person. She focuses on understanding important things and always trying to achieve her tasks in the best
+                  <p><span class="lang" key="fatimaSaid"> I enjoyed working with Khadejaa during our graduation project. She is a positive, wonderful, honest person. She focuses on understanding important things and always trying to achieve her tasks in the best
                       way she can. work with her gave me both wonderfully joy and great experience.</span></p>
-                  <h6> Fatima Aljaber</h6>
+                  <h6 class="lang" key="Fatima"> Fatima Aljaber</h6>
                 </div>
               </div>
             </div>
@@ -573,13 +546,13 @@
               <img src="images/sara.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <div class="card-text ">
-                  <p><span> Khadejaa is highly intelligent with excellent analytical skills, who attends to the fine details of the problem to be solved.
+                  <p><span class="lang" key="saraSaid"> Khadejaa is highly intelligent with excellent analytical skills, who attends to the fine details of the problem to be solved.
                       Honesty and integrity are the hallmark of her character. </span></p>
-                  <h6> Sarah Al-Shareef, Ph.D.</h6>
-                  <p> <small class="text-muted">
+                  <h6 class="lang" key="sara"> Sarah Al-Shareef, Ph.D.</h6>
+                  <p> <small class="lang text-muted" key='asPart'>
                       As a part from recommendation letter. To read full recommendation
                       <p>
-                        <a class="" download href="recommendation.pdf"> click here </a>
+                        <a class="lang" key="clickhere" download href="recommendation.pdf"> click here </a>
                       </p>
                     </small>
                   </p>
@@ -593,9 +566,9 @@
               <img src="images/randah.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <div class="card-text ">
-                  <p><span> Khadejaa is highly intelligent with excellent analytical skills, who attends to the fine details of the problem to be solved.
+                  <p><span class="lang" key="ranadahSaid"> Khadejaa is highly intelligent with excellent analytical skills, who attends to the fine details of the problem to be solved.
                       Honesty and integrity are the hallmark of her character. </span></p>
-                  <h6> Randah Alharbi</h6>
+                  <h6 class="lang" key="randah"> Randah Alharbi</h6>
 
                 </div>
               </div>
@@ -611,8 +584,7 @@
 
       <div class="row justify-content-center mb-5 pb-3">
         <div class="col-md-7 heading-section text-center ftco-animate">
-          <h1 class="big big-2">Contact</h1>
-          <h2 class="mb-4">Contact Me</h2>
+          <h2 class="lang mb-4" key="contactMe">Contact Me</h2>
           <!-- <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p> -->
         </div>
       </div>
@@ -622,7 +594,7 @@
         <div class=" col-md-6 order-md-last d-flex ftco-animate">
           <form action="mailto:Khadejaa.cs@gmail.com" class="shadow bg-light p-4 p-md-5 contact-form">
             <div class="form-group">
-              <input type="text" class="form-control" placeholder="Your Name">
+              <input type="text" class=" form-control"  placeholder="Your Name">
             </div>
             <div class="form-group">
               <input type="text" class="form-control" placeholder="Your Email">
@@ -649,8 +621,8 @@
                   <span class="icon-map-signs"></span>
                 </div>
                 <div>
-                  <h3 class="mb-4">Address</h3>
-                  <p>Makkah, KSA </p>
+                  <h3 class="lang mb-4" key="Address">Address</h3>
+                  <p class="lang" key="makkah">Makkah, KSA </p>
                 </div>
               </div>
             </div>
@@ -663,8 +635,8 @@
                   <span class="icon-phone2"></span>
                 </div>
                 <div>
-                  <h3 class="mb-4">Contact Number</h3>
-                  <p><a href="tel://1234567920">+966 537 711 899</a></p>
+                  <h3 class="lang mb-4" key="number">Contact Number</h3>
+                  <p><a href="tel://+966537711899">+966 537 711 899</a></p>
                 </div>
               </div>
             </div>
@@ -677,7 +649,7 @@
                   <span class="icon-paper-plane"></span>
                 </div>
                 <div>
-                  <h3 class="mb-4">Email Address</h3>
+                  <h3 class="lang mb-4" key="email">Email Address</h3>
                   <p><a href="mailto:Khadejaa.cs@gmail.com">Khadejaa.cs@gmail.com</a></p>
                 </div>
               </div>
@@ -699,9 +671,9 @@
         <div class="container">
           <div class="row justify-content-center ">
             <div class="col-md-9 ftco-animate text-center">
-              <h4 class="mb-5">Monthly, you'll get some of inspiring and motivating ideas and some reviews about my favorite books.</h4>
+              <h4 class="lang mb-5" key="maillist">Monthly, you'll get some of inspiring and motivating ideas and some reviews about my favorite books.</h4>
               <input type="email" class="form-control mb-5 " placeholder="Enter your email, please">
-              <p class="mb-0"><a href="#" class="btn btn-primary py-3 px-5">Subscribe </a></p>
+              <p class="mb-0"><a href="#" class="lang btn btn-primary py-3 px-5" key="Subscribe">Subscribe </a></p>
             </div>
           </div>
         </div>
@@ -711,7 +683,7 @@
       </div>
       <div class="row maillist">
         <div class="col-md-12 text-center">
-          <p>
+          <p class="lang" key="Copyright">
             <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
             Copyright &copy;<script>
               document.write(new Date().getFullYear());
