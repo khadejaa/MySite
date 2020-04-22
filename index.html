@@ -17,6 +17,10 @@
   <link rel="stylesheet" href="css/icomoon.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/myStyle.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+  <script src="js/translate.js"></script>
+
 </head>
 
 <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
@@ -31,14 +35,21 @@
 
       <div class="collapse navbar-collapse" id="ftco-nav">
         <ul class="navbar-nav nav ml-auto">
-          <li class="nav-item"><a href="#home-section" class="nav-link"><span>Home</span></a></li>
-          <li class="nav-item"><a href="#about-section" class="nav-link"><span>About Me</span></a></li>
-          <li class="nav-item"><a href="#resume-section" class="nav-link"><span>My Education</span></a></li>
-          <li class="nav-item"><a href="#services-section" class="nav-link"><span>My Services</span></a></li>
-          <!-- <li class="nav-item"><a href="#projects-section" class="nav-link"><span>My Experience</span></a></li> -->
-          <li class="nav-item"><a href="#blog-section" class="nav-link"><span>My Blog</span></a></li>
-          <li class="nav-item"><a href="#achievements-section" class="nav-link"><span>My Last Achievements</span></a></li>
-          <li class="nav-item"><a href="#contact-section" class="nav-link"><span>Contact me</span></a></li>
+          <li class="nav-item"><a href="#home-section" key="home" class="lang nav-link"><span>Home</span></a></li>
+          <li class="nav-item"><a href="#about-section" key="about" class="lang nav-link"><span>About Me</span></a></li>
+          <li class="nav-item dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+            <a href="#resume-section" data-toggle="#dropdown" key="resume" class="lang nav-link dropdown-toggle"><span>My Resume</span></a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown" id="dropdown">
+              <li> <a key="edu" class="lang dropdown-item" href="#page-1">Education</a> </li>
+              <li> <a key="exp" class="lang dropdown-item" href="#page-2">Volunteer Experiences</a> </li>
+              <li> <a key="skills" class="lang dropdown-item" href="#page-3">Skills</a> </li>
+              <li> <a key="awards" class="lang dropdown-item" href="#page-4">Awards</a> </li>
+            </ul>
+          </li>
+          <li class=" nav-item"><a key="services" href="#services-section" class="lang nav-link"><span>My Services</span></a></li>
+          <li class=" nav-item"><a key="achieve" href="#achievements-section" class="lang nav-link"><span>My Last Achievements</span></a></li>
+          <li class=" nav-item"><a key="blog" href="#blog-section" class="lang nav-link"><span>My Blog</span></a></li>
+          <li class=" nav-item"><a key="contact" href="#contact-section" class="lang nav-link"><span>Contact me</span></a></li>
         </ul>
       </div>
     </div>
@@ -49,25 +60,28 @@
       <div class="row no-gutters slider-text js-fullheight justify-content-center align-items-center">
         <div class="col-lg-8 col-md-6 ftco-animate d-flex align-items-center">
           <div class="text text-center">
-            <span class="subheading" style="color:#fe346e;">Hey! I am</span>
+            <h3> <span class="subheading" style="color:#fe346e;">Hey! I am</span> </h3>
             <h1>Khadejaa</h1>
-            <h2 style="color:#fe346e;">I'm a
-              <!-- <span
-								     class="txt-rotate"
-								     data-period="1000"
-								     data-rotate='[ "Full Stack Developer.", "Computer Science Student.", "Blogger.", "And more" ]'></span> -->
             </h2>
-            <h3> Computer Science Student, Full Stack Developer, EV3 Robot trainer, Blogger And more</h3>
+            <h3> Computer Science Student, Full Stack Developer, EV3 Robot trainer, Blogger And More</h3>
+
+            <div class=" translate-btn  justify-content-center align-items-center " >
+              <button id="en" class="translate btn  py-3 px-5">English</button>
+              <button id="ar" class="translate btn  py-3 px-5">العربية</button>
+            </div>
           </div>
+
         </div>
+
       </div>
+
     </div>
     </div>
-    <div class="mouse">
+    <!-- <div class="mouse">
       <a href="#" class="mouse-icon">
         <div class="mouse-wheel"><span class="ion-ios-arrow-round-down"></span></div>
       </a>
-    </div>
+    </div> -->
   </section>
 
   <section class="ftco-about img ftco-section ftco-no-pt ftco-no-pb" id="about-section">
@@ -103,8 +117,8 @@
 
   <section class="ftco-section ftco-no-pb goto-here" id="resume-section">
     <div class="container">
-      <div class="row">
-        <div class="col-md-3">
+      <div class="row justify-content-center">
+        <!-- <div class="col-md-3">
           <nav id="navi">
             <ul>
               <li><a href="#page-1">Education</a></li>
@@ -113,7 +127,7 @@
               <li><a href="#page-4">Awards</a></li>
             </ul>
           </nav>
-        </div>
+        </div> -->
         <div class="col-md-9">
           <div id="page-1" class="page one">
             <h2 class="heading">Education</h2>
@@ -355,7 +369,7 @@
 
       <div class="row">
         <div class="col-md-4 text-center d-flex ftco-animate">
-          <a href="#" class="services-1 shadow">
+          <a href="#contact-section" class="services-1 shadow">
             <span class="icon">
               <i class="flaticon-analysis"></i>
             </span>
@@ -367,7 +381,7 @@
         </div>
 
         <div class="col-md-4 text-center d-flex ftco-animate">
-          <a href="#" class="services-1 shadow">
+          <a href="#contact-section" class="services-1 shadow">
             <span class="icon">
               <i class="flaticon-web-design"></i>
             </span>
@@ -379,7 +393,7 @@
         </div>
 
         <div class="col-md-4 text-center d-flex ftco-animate">
-          <a href="#" class="services-1 shadow">
+          <a href="#contact-section" class="services-1 shadow">
             <span class="icon">
               <i class="flaticon-innovation"></i>
             </span>
@@ -395,7 +409,7 @@
   </section>
 
 
-  <section class="ftco-section ftco-project" id="projects-section">
+  <section class="ftco-section ftco-project" id="achievements-section">
     <div class="container-fluid px-md-0">
       <div class="row no-gutters justify-content-center pb-5">
         <div class="col-md-12 heading-section text-center ftco-animate">
@@ -407,7 +421,7 @@
       <div class="row no-gutters">
 
         <div class="col-md-4">
-          <div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/iOS.png);">
+          <div class="project shadow img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/iOS.png);">
             <div class="overlay"></div>
             <div class="text text-center p-4">
               <h3><a href="#">Certificate of iOS Nanodegree</a></h3>
@@ -417,7 +431,7 @@
         </div>
 
         <div class="col-md-4">
-          <div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/drwing.png);">
+          <div class="project shadow img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/drwing.png);">
             <div class="overlay"></div>
             <div class="text text-center p-4">
               <h3><a href="#"> Above The Fog </a></h3>
@@ -427,7 +441,7 @@
         </div>
 
         <div class="col-md-4">
-          <div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/cs.png);">
+          <div class="project shadow img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/cs2.png);">
             <div class="overlay"></div>
             <div class="text text-center p-4">
               <h3><a href="#">CS Student Projects </a></h3>
@@ -436,7 +450,7 @@
           </div>
         </div>
         <div class="col-md-4">
-          <div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/ML.png);">
+          <div class="project shadow img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/ML.png);">
             <div class="overlay"></div>
             <div class="text text-center p-4">
               <h3><a href="#"> Certificate of Machine Learning Course </a></h3>
@@ -445,7 +459,7 @@
           </div>
         </div>
         <div class="col-md-4">
-          <div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/reading.png);">
+          <div class="project shadow img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/reading.png);">
             <div class="overlay"></div>
             <div class="text text-center p-4">
               <h3><a href="#">Reading Workshop</a></h3>
@@ -454,7 +468,7 @@
           </div>
         </div>
         <div class="col-md-4">
-          <div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/calander.jpg);">
+          <div class="project shadow img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/calander.jpg);">
             <div class="overlay"></div>
             <div class="text text-center p-4">
               <h3><a href="#">Digital Calendar</a></h3>
@@ -480,25 +494,19 @@
       </div>
 
       <div class="row d-flex">
-        <div class="col-md-4 d-flex ftco-animate">
-          <div class="blog-entry justify-content-end">
+        <div class=" card col-md-4 d-flex ftco-animate">
+          <div class=" blog-entry justify-content-end">
             <a href="https://zeze212blog.wordpress.com/2017/06/14/%d8%ad%d9%83%d8%a7%d9%8a%d8%a9-%d8%aa%d8%ae%d8%b1%d8%ac%d9%86%d8%a7-%f0%9f%8e%93/" class="block-20" style="background-image: url('images/blog1.png');">
             </a>
             <div class="text mt-3 float-right d-block">
               <h3 class="heading"><a href="https://zeze212blog.wordpress.com/2017/06/14/%d8%ad%d9%83%d8%a7%d9%8a%d8%a9-%d8%aa%d8%ae%d8%b1%d8%ac%d9%86%d8%a7-%f0%9f%8e%93/">
                   Our Graduation Story (undergraduate project)</a></h3>
               <div class="d-flex align-items-center mb-3 meta">
-                <!-- <p class="mb-0">
-	                	<span class="mr-2">Sept. 12, 2019</span>
-	                	<a href="#" class="mr-2">Admin</a>
-	                	<a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a>
-	                </p> -->
               </div>
-              <!-- <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p> -->
             </div>
           </div>
         </div>
-        <div class="col-md-4 d-flex ftco-animate">
+        <div class=" card col-md-4 d-flex ftco-animate">
           <div class="blog-entry justify-content-end">
             <a href="https://zeze212blog.wordpress.com/2016/12/09/%d8%aa%d8%ac%d8%b1%d8%a8%d8%aa%d9%8a-%d9%81%d9%8a-%d8%a7%d9%84%d8%aa%d8%af%d8%b1%d9%8a%d8%a8-%d8%a7%d9%84%d8%b5%d9%8a%d9%81%d9%8a-%d8%a8%d9%88%d8%a7%d8%af%d9%8a-%d9%85%d9%83%d8%a9/"
               class="block-20" style="background-image: url('images/blog2.jpg');">
@@ -508,18 +516,12 @@
                   href="https://zeze212blog.wordpress.com/2016/12/09/%d8%aa%d8%ac%d8%b1%d8%a8%d8%aa%d9%8a-%d9%81%d9%8a-%d8%a7%d9%84%d8%aa%d8%af%d8%b1%d9%8a%d8%a8-%d8%a7%d9%84%d8%b5%d9%8a%d9%81%d9%8a-%d8%a8%d9%88%d8%a7%d8%af%d9%8a-%d9%85%d9%83%d8%a9/">
                   My experience in summer training in Wadi Makkah</a></h3>
               <div class="d-flex align-items-center mb-3 meta">
-                <!-- <p class="mb-0">
-	                	<span class="mr-2">Sept. 12, 2019</span>
-	                	<a href="#" class="mr-2">Admin</a>
-	                	<a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a>
-	                </p> -->
               </div>
-              <!-- <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p> -->
             </div>
           </div>
         </div>
-        <div class="col-md-4 d-flex ftco-animate">
-          <div class="blog-entry">
+        <div class=" card col-md-4 d-flex ftco-animate">
+          <div class="blog-entry justify-content-end">
             <a href="https://zeze212blog.wordpress.com/2017/12/21/%d8%aa%d8%ac%d8%b1%d8%a8%d8%a9-%d9%a3%d9%a0-%d9%8a%d9%88%d9%85%d8%a7%d9%8b-%d8%a8%d8%af%d9%88%d9%86-%d8%b4%d8%a8%d9%83%d8%a7%d8%aa-%d8%a7%d8%ac%d8%aa%d9%85%d8%a7%d8%b9%d9%8a%d8%a9/"
               class="block-20" style="background-image: url('images/blog3.png');">
             </a>
@@ -528,37 +530,14 @@
                   href="https://zeze212blog.wordpress.com/2017/12/21/%d8%aa%d8%ac%d8%b1%d8%a8%d8%a9-%d9%a3%d9%a0-%d9%8a%d9%88%d9%85%d8%a7%d9%8b-%d8%a8%d8%af%d9%88%d9%86-%d8%b4%d8%a8%d9%83%d8%a7%d8%aa-%d8%a7%d8%ac%d8%aa%d9%85%d8%a7%d8%b9%d9%8a%d8%a9/">
                   30 Days without social media</a></h3>
               <div class="d-flex align-items-center mb-3 meta">
-                <!-- <p class="mb-0">
-	                	<span class="mr-2">Sept. 12, 2019</span>
-	                	<a href="#" class="mr-2">Admin</a>
-	                	<a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a>
-	                </p> -->
               </div>
-              <!-- <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p> -->
             </div>
           </div>
         </div>
       </div>
-
-
-
-
-
     </div>
   </section>
 
-  <section class="ftco-section ftco-hireme img">
-    <div class="overlay"></div>
-    <div class="container">
-      <div class="row justify-content-center ">
-        <div class="col-md-9 ftco-animate text-center">
-          <h4 class="mb-5">Monthly, you'll get some of inspiring and motivating ideas !</h4>
-          <input type="email" class="form-control mb-5 en " placeholder="Enter your email, please">
-          <p class="mb-0"><a href="#" class="btn btn-primary py-3 px-5">Subscribe my newsletters.</a></p>
-        </div>
-      </div>
-    </div>
-  </section>
 
 
 
@@ -576,70 +555,56 @@
 
       <div class="row ">
         <div class="card-deck">
+          <div class="shadow col-md-4 text-center h-100 d-flex ftco-animate ">
+            <div class="">
+              <img src="images/fatma.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <div class="card-text ">
+                  <p><span> I enjoyed working with Khadejaa during our graduation project. She is a positive, wonderful, honest person. She focuses on understanding important things and always trying to achieve her tasks in the best
+                      way she can. work with her gave me both wonderfully joy and great experience.</span></p>
+                  <h6> Fatima Aljaber</h6>
+                </div>
+              </div>
+            </div>
+          </div>
 
+          <div class="shadow col-md-4 text-center  h-100 d-flex ftco-animate ">
+            <div class="">
+              <img src="images/sara.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <div class="card-text ">
+                  <p><span> Khadejaa is highly intelligent with excellent analytical skills, who attends to the fine details of the problem to be solved.
+                      Honesty and integrity are the hallmark of her character. </span></p>
+                  <h6> Sarah Al-Shareef, Ph.D.</h6>
+                  <p> <small class="text-muted">
+                      As a part from recommendation letter. To read full recommendation
+                      <p>
+                        <a class="" download href="recommendation.pdf"> click here </a>
+                      </p>
+                    </small>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
 
+          <div class="shadow col-md-4 text-center  h-100 d-flex ftco-animate ">
+            <div class="">
+              <img src="images/randah.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <div class="card-text ">
+                  <p><span> Khadejaa is highly intelligent with excellent analytical skills, who attends to the fine details of the problem to be solved.
+                      Honesty and integrity are the hallmark of her character. </span></p>
+                  <h6> Randah Alharbi</h6>
 
-        <div class="col-md-4 text-center h-100 d-flex ftco-animate ">
-          <div class="card">
-            <img src="images/fatma.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <div class="card-text ">
-                <p><span> I enjoyed working with Khadejaa during our graduation project. She is a positive, wonderful, honest person. She focuses on understanding important things and always trying to achieve her tasks in the best
-                    way she can. work with her gave me both wonderfully joy and great experience.</span></p>
-                <h6> Fatima Aljaber</h6>
+                </div>
               </div>
             </div>
           </div>
         </div>
-
-        <div class="col-md-4 text-center  h-100 d-flex ftco-animate ">
-          <div class="card">
-            <img src="images/sara.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <div class="card-text ">
-                <p><span> Khadejaa is highly intelligent with excellent analytical skills, who attends to the fine details of the problem to be solved.
-                  Honesty and integrity are the hallmark of her character. </span></p>
-                <h6> Sarah Al-Shareef, Ph.D.</h6>
-                <p> <small class="text-muted">
-                    As a part from recommendation letter. To read full recommendation
-                    <p>
-                      <a class="" download href="recommendation.pdf"> click here </a>
-                    </p>
-                  </small>
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-4 text-center  h-100 d-flex ftco-animate ">
-          <div class="card">
-            <img src="images/randah.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <div class="card-text ">
-                <p><span> Detract yet delight written farther his general. If in so bred at dare rose lose good. Feel and make two real miss use easy. Celebrated delightful an especially increasing instrument am. Indulgence contrasted sufficient to unpleasant in in insensible favourable. Latter remark hunted enough vulgar say man. Sitting hearted on it without me. 
- </span></p>
-                <h6> Randah Alharbi</h6>
-                
-              </div>
-            </div>
-          </div>
-        </div>
-</div>
-
-
-
-
-
-
-      </div>
     </div>
-
+    </div>
   </section>
-
-
-
-
 
   <section class="ftco-section contact-section ftco-no-pb" id="contact-section">
     <div class="container">
@@ -654,8 +619,8 @@
 
       <div class="row d-flex contact-info mb-5">
 
-        <div class="col-md-6 order-md-last d-flex ftco-animate">
-          <form action="mailto:Khadejaa.cs@gmail.com" class="bg-light p-4 p-md-5 contact-form">
+        <div class=" col-md-6 order-md-last d-flex ftco-animate">
+          <form action="mailto:Khadejaa.cs@gmail.com" class="shadow bg-light p-4 p-md-5 contact-form">
             <div class="form-group">
               <input type="text" class="form-control" placeholder="Your Name">
             </div>
@@ -726,22 +691,45 @@
 
   <footer class="ftco-footer footer ftco-section">
     <div class="container">
-      <!-- <div class="row "> -->
-      <!-- <div class=""> -->
-      <h5> follow me </h5>
-      <div class="ftco-footer-widget ">
-        <ul class="ftco-footer-social list-unstyled ">
-          <li class="ftco-animate"><a href="https://twitter.com/zezee212"><span class="icon-twitter"></span></a></li>
-          <li class="ftco-animate"><a href="https://www.instagram.com/zeze212/"><span class="icon-instagram"></span></a></li>
-          <li class="ftco-animate"><a href="https://github.com/khadejaa"><span class="icon-github"></span></a></li>
-          <li class="ftco-animate"><a href="https://www.linkedin.com/in/khadejaacs/"><span class="icon-linkedin"></span></a></li>
-          <li class="ftco-animate"><a href="https://zeze212blog.wordpress.com/"><span class="icon-wordpress"></span></a></li>
+      <div class="row">
 
 
-        </ul>
+      <div class="row">
+        <div class="overlay"></div>
+        <div class="container">
+          <div class="row justify-content-center ">
+            <div class="col-md-9 ftco-animate text-center">
+              <h4 class="mb-5">Monthly, you'll get some of inspiring and motivating ideas and some reviews about my favorite books.</h4>
+              <input type="email" class="form-control mb-5 " placeholder="Enter your email, please">
+              <p class="mb-0"><a href="#" class="btn btn-primary py-3 px-5">Subscribe </a></p>
+            </div>
+          </div>
+        </div>
       </div>
-      <!-- </div> -->
-      <!-- </div> -->
+
+
+      </div>
+      <div class="row maillist">
+        <div class="col-md-12 text-center">
+          <p>
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            Copyright &copy;<script>
+              document.write(new Date().getFullYear());
+            </script> All rights reserved | This site is developed with <i class="icon-heart color-danger" aria-hidden="true"></i> by Khadejaa Alshehri
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+          </p>
+
+          <div class="ftco-footer-widget ">
+          <ul class="ftco-footer-social list-unstyled ">
+            <li class="ftco-animate"><a href="https://twitter.com/zezee212"><span class="icon-twitter"></span></a></li>
+            <li class="ftco-animate"><a href="https://www.instagram.com/zeze212/"><span class="icon-instagram"></span></a></li>
+            <li class="ftco-animate"><a href="https://github.com/khadejaa"><span class="icon-github"></span></a></li>
+            <li class="ftco-animate"><a href="https://www.linkedin.com/in/khadejaacs/"><span class="icon-linkedin"></span></a></li>
+            <li class="ftco-animate"><a href="https://zeze212blog.wordpress.com/"><span class="icon-wordpress"></span></a></li>
+          </ul>
+          </div>
+        </div>
+      </div>
 
     </div>
   </footer>
@@ -768,6 +756,13 @@
   <script src="js/scrollax.min.js"></script>
 
   <script src="js/main.js"></script>
+  <script>
+    $(function() {
+      $('.dropdown-menu a').click(function(e) {
+        $('.active').removeClass('active');
+      });
+    });
+  </script>
 
 </body>
 
