@@ -457,7 +457,7 @@ function sendEmail(){
 //   message => alert(message)
 // );
 
-message = "مرحباً ، أهلا بك في قائمتي البريدية ، أعتقد أن لدي الكثير من الأفكار التي أود مشاركتها معك و التي أتمنى أن تصلك دائماً في الوقت المناسب لها ، تحياتي خديجة"
+messageBody = "مرحباً ، أهلا بك في قائمتي البريدية ، أعتقد أن لدي الكثير من الأفكار التي أود مشاركتها معك و التي أتمنى أن تصلك دائماً في الوقت المناسب لها ، تحياتي خديجة"
 Email.send({
   Host: "smtp.elasticemail.com",
   Username : "khadejaa.cs@gmail.com",
@@ -466,7 +466,7 @@ Email.send({
     To : toEmail,
     From : "khadejaa Alshehri",
     Subject : "أهلاً ، أنا خديجة شكراً لاشتراكك ",
-    Body : message
+    Body : messageBody
 }).then(
   message => alert(message)
 );

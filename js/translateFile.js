@@ -43,8 +43,9 @@ arrLang['ar']['myRole'] = 'طالبة علوم حاسب ، مطورة مواقع
 
 //English about me section
 arrLang['en']['aboutMe'] = 'About Me'
-arrLang['en']['headOfAbout'] = 'Computer Science is my other family that I chose it.'
-arrLang['en']['bodyOfAbout'] = 'I always found myself inside the lines of code and completely focus during programming until I forget the world. I like the learning process. I am often excited to learn new concepts and skills. Also, I enjoy baking a cake. lately, I start learning drawing and this image is one of my painting which I prefer and found it reflect how I see the world (half organized and half messy)'
+arrLang['en']['headOfAbout'] = 'Computer Science is my other family that I chose.'
+arrLang['en']['bodyOfAbout'] = " I always find myself inside the lines of the code and completely focused during programming until I forget the world. I like the learning process. I am often excited to learn new concepts and skills. Lately, I have started learning digital drawing and this image is my favorite as it is reflecting my thoughts about the world around me (half organized and half messy).
+besides that, I fill my free time with baking cakes and reading. "
 //Arabic about me section
 arrLang['ar']['aboutMe'] = 'من أنا ؟'
 arrLang['ar']['headOfAbout'] = 'علوم الحاسب الآلي هو عائلتي الثانية التي اخترتها'
@@ -269,7 +270,7 @@ arrLang['en']['sara']='Sarah Al-Shareef, Ph.D.'
 arrLang['en']['asPart']='As a part from recommendation letter. To read full recommendation'
 arrLang['en']['clickhere']='click here'
 
-arrLang['en']['ranadahSaid']='Khadejaa is highly intelligent with excellent analytical skills, who attends to the fine details of the problem to be solved. Honesty and integrity are the hallmark of her character.'
+arrLang['en']['ranadahSaid']='Khadejaa is one of the most adapted people I know. she went through a long way of difficulties but she passed them with light spirit and greet seterminution. I proud of her. I known her as a student in the same department, then as close friend. May Allah protect her'
 arrLang['en']['randah']='Randah Alharbi'
 
 //Arabic they said section
