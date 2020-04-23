@@ -12531,7 +12531,7 @@ h1, h2, h3, h4, h5,
 
 .project.img-2 .text span {
   color: rgba(255, 255, 255, 0.8);
-  text-transform: uppercase;
+  text-transform: none;
   letter-spacing: 2px;
 }
 
@@ -12590,7 +12590,6 @@ h1, h2, h3, h4, h5,
 
 .project .text span {
   color: #512b58;
-  text-transform: uppercase;
   letter-spacing: 2px;
   font-size: 12px;
   font-weight: 600;
@@ -12602,11 +12601,13 @@ h1, h2, h3, h4, h5,
   }
 
   .project .text span {
-    color: rgba(255, 255, 255, 0.15);
+    opacity: .1;
+    color: rgba(81, 43, 88);
   }
 
   .project .text h3 a {
-    color: rgba(255, 255, 255, 0.8);
+    opacity: .2;
+    color: rgba(254, 52, 110);
   }
 }
 
@@ -12614,9 +12615,11 @@ h1, h2, h3, h4, h5,
   opacity: .9;
 }
 
-.project:hover .text, .project:focus .text {
-  opacity: 1;
-  color: #512b58;
+.project:hover .text span , .project:focus .text span {
+  opacity: .9;
+}
+.project:hover .text h3 a , project:focus .text h3 a{
+  opacity: .9;
 }
 
 .aside-stretch {
@@ -12704,6 +12707,7 @@ textarea.form-control {
     padding: 6em 0;
   }
 }
+
 
 .ftco-no-pt {
   padding-top: 0 !important;
