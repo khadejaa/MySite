@@ -3,6 +3,7 @@ arrLang['en'] = new Array();
 arrLang['ar'] = new Array();
 
 // English navbar content
+arrLang['en']['menu']= 'Menu';
 arrLang['en']['home'] = 'Home';
 arrLang['en']['about'] = 'About Me';
 arrLang['en']['contact'] = 'Contact Me';
@@ -16,6 +17,7 @@ arrLang['en']['achieve'] = 'My Last Achievements';
 arrLang['en']['blog'] = 'My Blog';
 
 // Arabic navbar content
+arrLang['ar']['menu']= 'القائمة';
 arrLang['ar']['home'] = 'الرئيسية'
 arrLang['ar']['about'] = 'عني';
 arrLang['ar']['contact'] = 'التواصل';
@@ -41,9 +43,8 @@ arrLang['ar']['myRole'] = 'طالبة علوم حاسب ، مطورة مواقع
 
 //English about me section
 arrLang['en']['aboutMe'] = 'About Me'
-arrLang['en']['headOfAbout'] = 'Computer Science is my other family that i chose it.'
-arrLang['en']['bodyOfAbout'] = 'I always found my self inside the lines of code and completely focus during programming and forget the world. I love the process of learning new concepts, skills and bake a cake.lately, I start learning drawing and the image on the left is my favorate painting that reflect how i see the world (half orgnized half messy)'
-
+arrLang['en']['headOfAbout'] = 'Computer Science is my other family that I chose it.'
+arrLang['en']['bodyOfAbout'] = 'I always found myself inside the lines of code and completely focus during programming until I forget the world. I like the learning process. I am often excited to learn new concepts and skills. Also, I enjoy baking a cake. lately, I start learning drawing and this image is one of my painting which I prefer and found it reflect how I see the world (half organized and half messy)'
 //Arabic about me section
 arrLang['ar']['aboutMe'] = 'من أنا ؟'
 arrLang['ar']['headOfAbout'] = 'علوم الحاسب الآلي هو عائلتي الثانية التي اخترتها'
@@ -96,7 +97,7 @@ arrLang['ar']['Udacity'] = 'يوداستي'
 arrLang['en']['Experiences']='My Volunteer Experiences'
 
 arrLang['en']['akamDate']='2017-2019'
-arrLang['en']['akam']='A Member In Akam Team'
+arrLang['en']['akam']='A Member Of Akam Team'
 arrLang['en']['wa3i']='wa3i'
 
 arrLang['en']['SEUdate']='2015-2017'
@@ -127,10 +128,10 @@ arrLang['ar']['Rushd']='نادي رشد بجامعة أم القرى'
 arrLang['en']['skills'] = 'Skills'
 
 arrLang['en']['Programing'] = 'Programing'
-arrLang['en']['Discussion'] = 'Managing Dialogue and Discussion'
+arrLang['en']['Discussion'] = 'Dialogue and Discussion Management'
 arrLang['en']['speek'] = 'Public Speak'
 arrLang['en']['self'] = 'Self Learning'
-arrLang['en']['Teaching'] = 'Teaching and Training'
+arrLang['en']['teaching'] = 'Teaching and Training'
 arrLang['en']['sketch'] = 'Digital Sketch'
 
 
@@ -142,7 +143,7 @@ arrLang['ar']['Programing'] = 'البرمجة'
 arrLang['ar']['Discussion'] = 'إدارة الحوار والنقاش'
 arrLang['ar']['speek'] = 'الإلقاء والتقديم'
 arrLang['ar']['self'] = 'التعلم الذاتي'
-arrLang['ar']['Teaching'] = 'التعليم والتدريب'
+arrLang['ar']['teaching'] = 'التعليم والتدريب'
 arrLang['ar']['sketch'] = 'الرسم الالكتروني'
 
 
@@ -173,7 +174,7 @@ arrLang['ar']['FCIT'] = 'كلية الحاسبات ونظم المعلومات �
 arrLang['en']['Services']='Services'
 
 arrLang['en']['Teaching']='Teaching'
-arrLang['en']['TeachingDescription']='If you have any question related to computer sciences courses you can ask me to help you understand it .'
+arrLang['en']['TeachingDescription']='If you have any question related to computer sciences courses, you can ask me to help you understand it .'
 
 arrLang['en']['web']='Web Developer'
 arrLang['en']['webDescription']='Do you like my personal website? I can develop one for you.'
@@ -213,7 +214,7 @@ arrLang['en']['reading'] = 'Reading Workshop'
 arrLang['en']['readingDescription'] = 'Public Speak, One of my favorite workshop that i presented it more than once.'
 
 arrLang['en']['calander'] = 'Digital Calendar'
-arrLang['en']['calanderDescription'] = 'My first experience to designing arabic digital calendar that work friendly with ipad and its pen'
+arrLang['en']['calanderDescription'] = 'My first experience to design arabic digital calendar that work friendly with ipad and its pen'
 
 // Arabic My Last Achievements section
 arrLang['ar']['Achievements'] = 'من آخر انجازاتي'
@@ -239,7 +240,7 @@ arrLang['ar']['calanderDescription'] = 'تجربتي الأولى في تصمي�
 
 //English blog section
 arrLang['en']['blog']='My Blog'
-arrLang['en']['quotesBlog']='The writing is my way to express my ideas and save my memories'
+arrLang['en']['quotesBlog']='The writing is my way to express my ideas and memories'
 
 arrLang['en']['Graduation']='Our Graduation Story (undergraduate project)'
 arrLang['en']['wadi']='My experience in summer training in Wadi Makkah'
@@ -258,7 +259,7 @@ arrLang['ar']['30days']='٣٠ يوماً بدون شبكات اجتماعية'
 //English thay Said section
 arrLang['en']['Said']='They Said'
 
-arrLang['en']['fatimaSaid']='I enjoyed working with Khadejaa during our graduation project. She is a positive, wonderful, honest person. She focuses on understanding important things and always trying to achieve her tasks in the best way she can. work with her gave me both wonderfully joy and great experience.'
+arrLang['en']['fatimaSaid']='I enjoyed working with Khadejaa during our graduation project. She is a positive, wonderful and honest person. She focuses on understanding important things and always trying to achieve her tasks in the best way she can. Working with her gave me both wonderfully joy and great experience.'
 arrLang['en']['Fatima']='Fatima Aljaber'
 
 arrLang['en']['saraSaid']='Khadejaa is highly intelligent with excellent analytical skills, who attends to the fine details of the problem to be solved.Honesty and integrity are the hallmark of her character'
@@ -287,7 +288,7 @@ arrLang['ar']['randah']='أ.رندة الأحمدي'
 //English contact section
 arrLang['en']['contactMe']='Contact Me'
 arrLang['en']['Address']='Address'
-arrLang['en']['makkah']='Makkah, KSA'
+arrLang['en']['makkah']='Saudi Arabia, Makkah ,Al Qadi street, 4446'
 arrLang['en']['number']='Contact Number'
 arrLang['en']['email']='Email Address'
 
@@ -295,7 +296,7 @@ arrLang['en']['email']='Email Address'
 //Arabic contact section
 arrLang['ar']['contactMe']='للتواصل معي'
 arrLang['ar']['Address']='العنوان'
-arrLang['ar']['makkah']='المملكة العربية السعودية ، مكة المكرمة'
+arrLang['ar']['makkah']= 'المملكة العربية السعودية ، مكة المكرمة ، شارع القاضي ، 4446'
 arrLang['ar']['number']='رقم الجوال'
 arrLang['ar']['email']='البريد الالكتروني'
 
