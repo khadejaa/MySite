@@ -12618,7 +12618,10 @@ h1, h2, h3, h4, h5,
 .project:hover .text span , .project:focus .text span {
   opacity: .9;
 }
-.project:hover .text h3 a , project:focus .text h3 a{
+.project:hover .text  , .project:focus .text  {
+  opacity: .9;
+}
+.project:hover .text h3 a , .project:focus .text h3 a{
   opacity: .9;
 }
 
