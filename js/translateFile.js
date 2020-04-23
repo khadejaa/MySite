@@ -44,8 +44,7 @@ arrLang['ar']['myRole'] = 'طالبة علوم حاسب ، مطورة مواقع
 //English about me section
 arrLang['en']['aboutMe'] = 'About Me'
 arrLang['en']['headOfAbout'] = 'Computer Science is my other family that I chose.'
-arrLang['en']['bodyOfAbout'] = " I always find myself inside the lines of the code and completely focused during programming until I forget the world. I like the learning process. I am often excited to learn new concepts and skills. Lately, I have started learning digital drawing and this image is my favorite as it is reflecting my thoughts about the world around me (half organized and half messy).
-besides that, I fill my free time with baking cakes and reading. "
+arrLang['en']['bodyOfAbout'] = " I always find myself inside the lines of the code and completely focused during programming until I forget the world. I like the learning process. I am often excited to learn new concepts and skills. Lately, I have started learning digital drawing and this image is my favorite as it is reflecting my thoughts about the world around me (half organized and half messy).besides that, I fill my free time with baking cakes and reading. "
 //Arabic about me section
 arrLang['ar']['aboutMe'] = 'من أنا ؟'
 arrLang['ar']['headOfAbout'] = 'علوم الحاسب الآلي هو عائلتي الثانية التي اخترتها'
