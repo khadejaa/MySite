@@ -3,7 +3,7 @@ arrLang['en'] = new Array();
 arrLang['ar'] = new Array();
 
 // English navbar content
-arrLang['en']['menu']= 'Menu';
+arrLang['en']['menu'] = 'Menu';
 arrLang['en']['home'] = 'Home';
 arrLang['en']['about'] = 'About Me';
 arrLang['en']['contact'] = 'Contact Me';
@@ -17,7 +17,7 @@ arrLang['en']['achieve'] = 'My Last Achievements';
 arrLang['en']['blog'] = 'My Blog';
 
 // Arabic navbar content
-arrLang['ar']['menu']= 'القائمة';
+arrLang['ar']['menu'] = 'القائمة';
 arrLang['ar']['home'] = 'الرئيسية'
 arrLang['ar']['about'] = 'عني';
 arrLang['ar']['contact'] = 'التواصل';
@@ -33,18 +33,17 @@ arrLang['ar']['blog'] = 'مدونتي';
 //English home section
 arrLang['en']['greating'] = 'Hey! I am'
 arrLang['en']['myName'] = 'Khadejaa'
-arrLang['en']['myRole'] = 'Computer Science Student, Full Stack Developer, EV3 Robot trainer, Blogger And More'
+arrLang['en']['myRole'] = 'MSc Computer Science Student, Full Stack Developer, EV3 Robot trainer, Blogger And More'
 
 // //Arabic home section
 arrLang['ar']['greating'] = 'مرحبا ، أنا '
-arrLang['ar']['myName'] = 'خديجة'
-arrLang['ar']['myRole'] = 'طالبة علوم حاسب ، مطورة مواقع ، مدربة روبوتات ، مٌدونة وأكثر '
-
+arrLang['ar']['myName'] = 'خديجة بنت سعد'
+arrLang['ar']['myRole'] = 'طالبة ماجستير بعلوم الحاسب الآلي ، مطورة مواقع ، مدربة روبوتات ، مٌدونة وأكثر '
 
 //English about me section
 arrLang['en']['aboutMe'] = 'About Me'
 arrLang['en']['headOfAbout'] = 'Computer Science is my other family that I chose.'
-arrLang['en']['bodyOfAbout'] = " I always find myself inside the lines of the code and completely focused during programming until I forget the world. I like the learning process. I am often excited to learn new concepts and skills. Lately, I have started learning digital drawing and this image is my favorite as it is reflecting my thoughts about the world around me (half organized and half messy).besides that, I fill my free time with baking cakes and reading. "
+arrLang['en']['bodyOfAbout'] = " I always find myself inside the lines of the code and completely focused during programming until I forget the world. I like the learning process. I am often excited to learn new concepts and skills. Lately, I have started learning digital drawing and this image is my favorite as it is reflecting my thoughts about the world around me (half organized and half messy).Besides that, I fill my free time with reading and baking cakes."
 //Arabic about me section
 arrLang['ar']['aboutMe'] = 'من أنا ؟'
 arrLang['ar']['headOfAbout'] = 'علوم الحاسب الآلي هو عائلتي الثانية التي اخترتها'
@@ -94,35 +93,35 @@ arrLang['ar']['Udacity'] = 'يوداستي'
 
 
 //ِEnglish experience section
-arrLang['en']['Experiences']='My Volunteer Experiences'
+arrLang['en']['Experiences'] = 'My Volunteer Experiences'
 
-arrLang['en']['akamDate']='2017-2019'
-arrLang['en']['akam']='A Member Of Akam Team'
-arrLang['en']['wa3i']='wa3i'
+arrLang['en']['akamDate'] = '2017-2019'
+arrLang['en']['akam'] = 'A Member Of Akam Team'
+arrLang['en']['wa3i'] = 'wa3i'
 
-arrLang['en']['SEUdate']='2015-2017'
-arrLang['en']['SEU']='SEU Leader'
-arrLang['en']['College']='College Of Computers And Information Systems'
+arrLang['en']['SEUdate'] = '2015-2017'
+arrLang['en']['SEU'] = 'SEU Leader'
+arrLang['en']['College'] = 'College Of Computers And Information Systems'
 
-arrLang['en']['coffeeDate']='2016-2017'
-arrLang['en']['coffee']="a Member Then Leader of 'After The Coffee' Reading Club"
-arrLang['en']['Rushd']='Rushd Club In Um Al-Qraa University'
+arrLang['en']['coffeeDate'] = '2016-2017'
+arrLang['en']['coffee'] = "a Member Then Leader of 'After The Coffee' Reading Club"
+arrLang['en']['Rushd'] = 'Rushd Club In Um Al-Qraa University'
 
 
 //Arabic experience section
-arrLang['ar']['Experiences']='خبراتي التطوعية'
+arrLang['ar']['Experiences'] = 'خبراتي التطوعية'
 
-arrLang['ar']['akamDate']='2017-2019'
-arrLang['ar']['akam']='عضوة في فريق آكام التطوعي'
-arrLang['ar']['wa3i']='جمعية واعي'
+arrLang['ar']['akamDate'] = '2017-2019'
+arrLang['ar']['akam'] = 'عضوة في فريق آكام التطوعي'
+arrLang['ar']['wa3i'] = 'جمعية واعي'
 
-arrLang['ar']['SEUdate']= '2015-2017'
-arrLang['ar']['SEU']='رئيسة نادي روح اتحاد الخبرات'
-arrLang['ar']['College']='كلية الحاسب الآلي ونظم المعلومات'
+arrLang['ar']['SEUdate'] = '2015-2017'
+arrLang['ar']['SEU'] = 'رئيسة نادي روح اتحاد الخبرات'
+arrLang['ar']['College'] = 'كلية الحاسب الآلي ونظم المعلومات'
 
-arrLang['ar']['coffeeDate']='2016-2017'
-arrLang['ar']['coffee']='عضوة ثم قائدة لمقهى القراءة التابع لنادي رشد'
-arrLang['ar']['Rushd']='نادي رشد بجامعة أم القرى'
+arrLang['ar']['coffeeDate'] = '2016-2017'
+arrLang['ar']['coffee'] = 'عضوة ثم قائدة لمقهى القراءة التابع لنادي رشد'
+arrLang['ar']['Rushd'] = 'نادي رشد بجامعة أم القرى'
 
 //English skills section
 arrLang['en']['skills'] = 'Skills'
@@ -171,29 +170,29 @@ arrLang['ar']['FCIT'] = 'كلية الحاسبات ونظم المعلومات �
 
 
 //English Services section
-arrLang['en']['Services']='Services'
+arrLang['en']['Services'] = 'Services'
 
-arrLang['en']['Teaching']='Teaching'
-arrLang['en']['TeachingDescription']='If you have any question related to computer sciences courses, you can ask me to help you understand it .'
+arrLang['en']['Teaching'] = 'Teaching'
+arrLang['en']['TeachingDescription'] = 'If you have any question related to computer sciences courses, you can ask me to help you understand it .'
 
-arrLang['en']['web']='Web Developer'
-arrLang['en']['webDescription']='Do you like my personal website? I can develop one for you.'
+arrLang['en']['web'] = 'Web Developer'
+arrLang['en']['webDescription'] = 'Do you like my personal website? I can develop one for you.'
 
-arrLang['en']['EV3']='EV3 Robot Training'
-arrLang['en']['EV3Description']='Do you want to learn how to programing ev3 robot ? I can help you.'
+arrLang['en']['EV3'] = 'EV3 Robot Training'
+arrLang['en']['EV3Description'] = 'Do you want to learn how to programing ev3 robot ? I can help you.'
 
 //Arabic services section
-arrLang['ar']['Services']='خدمات أستطيع تقدميها لك'
+arrLang['ar']['Services'] = 'خدمات أستطيع تقدميها لك'
 
-arrLang['ar']['Teaching']='دروس خصوصية'
-arrLang['ar']['TeachingDescription']='هل تواجهين أي صعوبة أو لديك أي سؤال يتعلق بعلوم الحاسب؟ أستطيع مساعدتك لتخطي ذلك'
+arrLang['ar']['Teaching'] = 'دروس خصوصية'
+arrLang['ar']['TeachingDescription'] = 'هل تواجهين أي صعوبة أو لديك أي سؤال يتعلق بعلوم الحاسب؟ أستطيع مساعدتك لتخطي ذلك'
 
-arrLang['ar']['web']='تطوير المواقع'
-arrLang['ar']['webDescription']= 'هل أعجبك تصميم موقعي الشخصي؟ بإمكاني تطوير وتصميم موقعاً لك '
+arrLang['ar']['web'] = 'تطوير المواقع'
+arrLang['ar']['webDescription'] = 'هل أعجبك تصميم موقعي الشخصي؟ بإمكاني تطوير وتصميم موقعاً لك '
 
 
-arrLang['ar']['EV3']='برمجة الروبوتات'
-arrLang['ar']['EV3Description']='هل لديك اهتمام بتعلم أساسيات برمجة الربوتات؟ يسعدني مساعدتك في ذلك'
+arrLang['ar']['EV3'] = 'برمجة الروبوتات'
+arrLang['ar']['EV3Description'] = 'هل لديك اهتمام بتعلم أساسيات برمجة الربوتات؟ يسعدني مساعدتك في ذلك'
 
 //ِEnglish My Last Achievements section
 arrLang['en']['Achievements'] = 'My Last Achievements'
@@ -234,94 +233,94 @@ arrLang['ar']['ML'] = 'شهادة انجاز مادة تعلم الآلة من �
 arrLang['ar']['self'] = 'تعلم ذاتي'
 
 arrLang['ar']['reading'] = 'ورشة عمل القراءة بعنوان خير جليس'
-arrLang['ar']['readingDescription'] =  'واحدة من أفضل ورش العمل التي قدمتها أكثر من مره عن القراءة'
+arrLang['ar']['readingDescription'] = 'واحدة من أفضل ورش العمل التي قدمتها أكثر من مره عن القراءة'
 
 
 arrLang['ar']['calander'] = 'تقويم رقمي'
 arrLang['ar']['calanderDescription'] = 'تجربتي الأولى في تصميم تقويم رقمي يستخدم على أجهزة الآيباد مع القلم بشكل مرن وسلس'
 
 //English blog section
-arrLang['en']['blog']='My Blog'
-arrLang['en']['quotesBlog']='The writing is my way to express my ideas and memories'
+arrLang['en']['blog'] = 'My Blog'
+arrLang['en']['quotesBlog'] = 'The writing is my way to express my ideas and memories'
 
-arrLang['en']['Graduation']='Our Graduation Story (undergraduate project)'
-arrLang['en']['wadi']='My experience in summer training in Wadi Makkah'
-arrLang['en']['30days']='30 Days without social media'
+arrLang['en']['Graduation'] = 'Our Graduation Story (undergraduate project)'
+arrLang['en']['wadi'] = 'My experience in summer training in Wadi Makkah'
+arrLang['en']['30days'] = '30 Days without social media'
 
 //Arabic blog section
 
-arrLang['ar']['blog']='مدونتي'
-arrLang['ar']['quotesBlog']= 'الكتابة هي وسيلتي وطريقتي المفضلة للتعبير عن أفكاري وحفظ أهم ذكرياتي'
+arrLang['ar']['blog'] = 'مدونتي'
+arrLang['ar']['quotesBlog'] = 'الكتابة هي وسيلتي وطريقتي المفضلة للتعبير عن أفكاري وحفظ أهم ذكرياتي'
 
-arrLang['ar']['Graduation']= 'حكاية تخرجنا - مشروع البكالوريس'
-arrLang['ar']['wadi']='تجربتي في التدريب الصيفي بوادي مكة'
-arrLang['ar']['30days']='٣٠ يوماً بدون شبكات اجتماعية'
+arrLang['ar']['Graduation'] = 'حكاية تخرجنا - مشروع البكالوريس'
+arrLang['ar']['wadi'] = 'تجربتي في التدريب الصيفي بوادي مكة'
+arrLang['ar']['30days'] = '٣٠ يوماً بدون شبكات اجتماعية'
 
 
 //English thay Said section
-arrLang['en']['Said']='They Said'
+arrLang['en']['Said'] = 'They Said'
 
-arrLang['en']['fatimaSaid']='I enjoyed working with Khadejaa during our graduation project. She is a positive, wonderful and honest person. She focuses on understanding important things and always trying to achieve her tasks in the best way she can. Working with her gave me both wonderfully joy and great experience.'
-arrLang['en']['Fatima']='Fatima Aljaber'
+arrLang['en']['fatimaSaid'] = 'I enjoyed working with Khadejaa during our graduation project. She is a positive, wonderful and honest person. She focuses on understanding important things and always trying to achieve her tasks in the best way she can. Working with her gave me both wonderfully joy and great experience.'
+arrLang['en']['Fatima'] = 'Fatima Aljaber'
 
-arrLang['en']['saraSaid']='Khadejaa is highly intelligent with excellent analytical skills, who attends to the fine details of the problem to be solved.Honesty and integrity are the hallmark of her character'
-arrLang['en']['sara']='Sarah Al-Shareef, Ph.D.'
-arrLang['en']['asPart']='As a part from recommendation letter. To read full recommendation'
-arrLang['en']['clickhere']='click here'
+arrLang['en']['saraSaid'] = 'Khadejaa is highly intelligent with excellent analytical skills, who attends to the fine details of the problem to be solved.Honesty and integrity are the hallmark of her character'
+arrLang['en']['sara'] = 'Sarah Al-Shareef, Ph.D.'
+arrLang['en']['asPart'] = 'As a part from recommendation letter. To read full recommendation'
+arrLang['en']['clickhere'] = 'click here'
 
-arrLang['en']['ranadahSaid']='Khadejaa is one of the most adapted people I know. she went through a long way of difficulties but she passed them with light spirit and greet seterminution. I proud of her. I known her as a student in the same department, then as close friend. May Allah protect her'
-arrLang['en']['randah']='Randah Alharbi'
+arrLang['en']['ranadahSaid'] = 'Khadejaa is one of the most adapted people I know. she went through a long way of difficulties but she passed them with light spirit and greet seterminution. I proud of her. I known her as a student in the same department, then as close friend. May Allah protect her'
+arrLang['en']['randah'] = 'Randah Alharbi'
 
 //Arabic they said section
-arrLang['ar']['Said']='قالوا عني'
+arrLang['ar']['Said'] = 'قالوا عني'
 
-arrLang['ar']['fatimaSaid']= 'استمتعت بالعمل مع خديجة خلال مشروع التخرج ، شخصية ايجابية ، رائعة وصادقة ،تركز على فهم الأشياء المهمة وتعمل على تحقيق مهامها بأفضل الأحوال ، عملنا معاً كان تجربة رائعة'
-arrLang['ar']['Fatima']='فاطمة الجابر'
+arrLang['ar']['fatimaSaid'] = 'استمتعت بالعمل مع خديجة خلال مشروع التخرج ، شخصية ايجابية ، رائعة وصادقة ،تركز على فهم الأشياء المهمة وتعمل على تحقيق مهامها بأفضل الأحوال ، عملنا معاً كان تجربة رائعة'
+arrLang['ar']['Fatima'] = 'فاطمة الجابر'
 
-arrLang['ar']['saraSaid']= 'خديجة ذكية للغاية ولديها مهارات تحليلية ممتازة ،  تهتم بالتفاصيل الدقيقة لحل المشكلة . الصدق والنزاهة من السمات المميزة لشخصيتها'
-arrLang['ar']['sara']='د.سارة الشريف'
-arrLang['ar']['asPart']=''
-arrLang['ar']['clickhere']=''
+arrLang['ar']['saraSaid'] = 'خديجة ذكية للغاية ولديها مهارات تحليلية ممتازة ،  تهتم بالتفاصيل الدقيقة لحل المشكلة . الصدق والنزاهة من السمات المميزة لشخصيتها'
+arrLang['ar']['sara'] = 'د.سارة الشريف'
+arrLang['ar']['asPart'] = ''
+arrLang['ar']['clickhere'] = ''
 
-arrLang['ar']['ranadahSaid']= "خديجة من أكثر الأشخاص الذين أعرفهم تكيُفاً. لقد مرت برحلة طويله من الصعاب ورأيتها وهي تقفز بينها برشاقة وخفّة روح وإصرار عظيم. أفتخر برحلتها وكفاحها ونجاحها. عرفتهُا طالبة في نفس قسمي ثم صديقة وفيّه شبيهة لروحي وقريبة منها. أسأل الله أن يحفظها ويزيدها ويبلغها المُنى وماتحب وتأمل"
-arrLang['ar']['randah']='أ.رندة الأحمدي'
+arrLang['ar']['ranadahSaid'] = "خديجة من أكثر الأشخاص الذين أعرفهم تكيُفاً. لقد مرت برحلة طويله من الصعاب ورأيتها وهي تقفز بينها برشاقة وخفّة روح وإصرار عظيم. أفتخر برحلتها وكفاحها ونجاحها. عرفتهُا طالبة في نفس قسمي ثم صديقة وفيّه شبيهة لروحي وقريبة منها. أسأل الله أن يحفظها ويزيدها ويبلغها المُنى وماتحب وتأمل"
+arrLang['ar']['randah'] = 'أ.رندة الأحمدي'
 
 
 //English contact section
 arrLang['en']['send'] = 'Send Message'
 
-arrLang['en']['contactMe']='Contact Me'
-arrLang['en']['Address']='Address'
-arrLang['en']['makkah']='Saudi Arabia, Makkah ,Al Qadi street, 4446'
-arrLang['en']['number']='Contact Number'
-arrLang['en']['email']='Email Address'
+arrLang['en']['contactMe'] = 'Contact Me'
+arrLang['en']['Address'] = 'Address'
+arrLang['en']['makkah'] = 'Saudi Arabia, Makkah ,Al Qadi street, 4446'
+arrLang['en']['number'] = 'Contact Number'
+arrLang['en']['email'] = 'Email Address'
 
 
 
 //Arabic contact section
 arrLang['ar']['send'] = 'ارسل'
 
-arrLang['ar']['contactMe']='للتواصل معي'
-arrLang['ar']['Address']='العنوان'
-arrLang['ar']['makkah']= 'المملكة العربية السعودية ، مكة المكرمة ، شارع القاضي ، 4446'
-arrLang['ar']['number']='رقم الجوال'
-arrLang['ar']['email']='البريد الالكتروني'
+arrLang['ar']['contactMe'] = 'للتواصل معي'
+arrLang['ar']['Address'] = 'العنوان'
+arrLang['ar']['makkah'] = 'المملكة العربية السعودية ، مكة المكرمة ، شارع القاضي ، 4446'
+arrLang['ar']['number'] = 'رقم الجوال'
+arrLang['ar']['email'] = 'البريد الالكتروني'
 
 //ِEnglish footer section
-arrLang['en']['maillist']="Monthly, you'll get some of inspiring and motivating ideas and some reviews about my favorite books."
-arrLang['en']['Subscribe']='Subscribe'
+arrLang['en']['maillist'] = "Monthly, you'll get some of inspiring and motivating ideas and some reviews about my favorite books."
+arrLang['en']['Subscribe'] = 'Subscribe'
 
 //Arabic footer section
-arrLang['ar']['maillist']='شهرياً ستصلك رسائل بأفكار ملهمة ومحفزة وبعض المراجعات لأهم الكتب التي قرأتها'
-arrLang['ar']['Subscribe']='اشتراك'
+arrLang['ar']['maillist'] = 'شهرياً ستصلك رسائل بأفكار ملهمة ومحفزة وبعض المراجعات لأهم الكتب التي قرأتها'
+arrLang['ar']['Subscribe'] = 'اشتراك'
 
 // Process translation
 $(function() {
-      $('.translate').click(function() {
-        var lang = $(this).attr('id');
+  $('.translate').click(function() {
+    var lang = $(this).attr('id');
 
-        $('.lang').each(function(index, item) {
-          $(this).text(arrLang[lang][$(this).attr('key')]);
-        });
-      });
+    $('.lang').each(function(index, item) {
+      $(this).text(arrLang[lang][$(this).attr('key')]);
     });
+  });
+});
