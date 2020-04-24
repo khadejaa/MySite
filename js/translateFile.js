@@ -303,7 +303,7 @@ arrLang['ar']['send'] = 'ارسل'
 arrLang['ar']['contactMe'] = 'للتواصل معي'
 arrLang['ar']['Address'] = 'العنوان'
 arrLang['ar']['makkah'] = 'المملكة العربية السعودية ، مكة المكرمة ، شارع القاضي ، 4446'
-arrLang['ar']['number'] = 'رقم الجوال'
+arrLang['ar']['number'] = 'تيلقرام'
 arrLang['ar']['email'] = 'البريد الالكتروني'
 
 //ِEnglish footer section
