@@ -294,6 +294,7 @@ arrLang['en']['Address'] = 'Address'
 arrLang['en']['makkah'] = 'Saudi Arabia, Makkah ,Al Qadi street, 4446'
 arrLang['en']['number'] = 'Contact Number'
 arrLang['en']['email'] = 'Email Address'
+arrLang['en']['thanks'] = 'Thanks for contacting Me! I will get back to you soon!'
 
 
 
@@ -305,6 +306,7 @@ arrLang['ar']['Address'] = 'العنوان'
 arrLang['ar']['makkah'] = 'المملكة العربية السعودية ، مكة المكرمة ، شارع القاضي ، 4446'
 arrLang['ar']['number'] = 'تيلقرام'
 arrLang['ar']['email'] = 'البريد الالكتروني'
+arrLang['ar']['thanks'] = 'شكراً لتواصلك ، سيتم الرد عليك قريباً إن شاء الله'
 
 //ِEnglish footer section
 arrLang['en']['maillist'] = "Monthly, you'll get some of inspiring and motivating ideas and some reviews about my favorite books."
