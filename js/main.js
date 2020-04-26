@@ -445,8 +445,6 @@ function sendEmail(){
   console.log('in sendEmail method')
   toEmail= document.getElementsByName("emailSubscribe")[0].value;
   console.log(toEmail)
-messageBody =
-"مرحباً ، أهلا بك في قائمتي البريدية ، أعتقد أن لدي الكثير من الأفكار التي أود مشاركتها معك و التي أتمنى أن تصلك دائماً في الوقت المناسب لها ، تحياتي خديجة"
 Email.send({
   Host: "smtp.elasticemail.com",
   Username : "khadejaa.cs@gmail.com",
@@ -457,6 +455,6 @@ Email.send({
     Subject : "أهلاً ، أنا خديجة شكراً لاشتراكك ",
     Body : " مرحباً ، أهلا بك في قائمتي البريدية ، أعتقد أن لدي الكثير من الأفكار التي أود مشاركتها معك و التي أتمنى أن تصلك دائماً في الوقت المناسب لها ، تحياتي خديجة"
 }).then(
-  message => alert(message)
+  message => alert("Thank You| شكراً لاشتراكك")
 );
 }
