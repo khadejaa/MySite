@@ -11501,7 +11501,7 @@ h1, h2, h3, h4, h5,
 }
 
 .ftco-navbar-light .navbar-nav>.nav-item>.nav-link {
-  font-size: 16px;
+  font-size: 14px;
   padding-top: .7rem;
   padding-bottom: .7rem;
   padding-left: 20px;
@@ -11900,12 +11900,15 @@ h1, h2, h3, h4, h5,
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
-  border-radius: 50%;
+  border-radius: 100%;
   -webkit-animation: 1.6s ease infinite wheel-up-down;
   -moz-animation: 1.6s ease infinite wheel-up-down;
   animation: 1.6s ease infinite wheel-up-down;
   color: #fe346e;
   font-size: 30px;
+}
+.mouse-wheel:hover{
+  color: #d2fafb;
 }
 
 @-webkit-keyframes wheel-up-down {
