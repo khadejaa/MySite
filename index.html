@@ -603,7 +603,7 @@
         <!-- mailto:Khadejaa.cs@gmail.com?subject=subject&body=body -->
         <div class=" col-md-6 order-md-last d-flex ftco-animate">
 
-          <form class="gform pure-form pure-form-stacked shadow bg-light p-4 p-md-5 contact-form" method="POST" data-email="example@email.net" action="https://script.google.com/macros/s/AKfycbxOQrIs1Gk1Dqtt-leSfF2NfQwReBGRqxjUGM0YYA/exec">
+          <form class="gform pure-form pure-form-stacked shadow bg-light p-4 p-md-5 contact-form" method="POST" data-email="example@email.net" action="https://script.google.com/macros/s/AKfycby8OnmgkuE2-UzRyf1lFNMEPMlDj0cZeLME-tDx/exec">
             <!-- change the form action to your script url -->
 
             <div class="form-elements ">
@@ -717,17 +717,26 @@
   <footer class="ftco-footer footer ftco-section">
     <div class="container">
       <div class="row">
-
-
         <div class="row">
           <div class="overlay"></div>
           <div class="container">
             <div class="row justify-content-center ">
               <div class="col-md-9 ftco-animate text-center">
                 <h4 class="lang mb-5" key="maillist">Monthly, you'll get some inspiring and motivating ideas and some reviews about my favorite books.</h4>
-                <input type="email" class=" emailSubscribe form-control mb-5 " name="emailSubscribe" placeholder="Enter your email, please">
-                <p class="mb-0"><a onclick="sendEmail()" class="lang btn btn-primary py-3 px-5" key="Subscribe">Subscribe </a></p>
+                <form method="POST" action="https://script.google.com/macros/s/AKfycbwJTzgWnoi60xpyFf-7k_AM5y8zGJxtO9-DfBUiug/exec" class="gform pure-form pure-form-stacked">
+                  <div class="form-elements ">
+                    <fieldset class="pure-group ">
+                      <input type="email" id="email" class=" emailSubscribe form-control mb-5 " name="emailSubscribe" placeholder="Enter your email, please">
+                    </fieldset>
+                    <p class="mb-0">
+                      <button type="submit" value="Send Message" class="lang btn btn-primary py-3 px-5" key="Subscribe">Subscribe </button></p>
+                  </div>
+                  <div class="lang thankyou_message" key="thanksSubscribe" style="display:none;">
+                    <h2>Thanks for subscription! </h2>
+                  </div>
+                </form>
               </div>
+
             </div>
           </div>
         </div>
