@@ -439,22 +439,3 @@ $(function() {
   }
 
 });
-
-
-function sendEmail(){
-  console.log('in sendEmail method')
-  toEmail= document.getElementsByName("emailSubscribe")[0].value;
-  console.log(toEmail)
-Email.send({
-  Host: "smtp.elasticemail.com",
-  Username : "khadejaa.cs@gmail.com",
-  Password : "6C20895F00F2A22F5066C23EE7D302CB9F7F",
-    SecureToken : "158cd7ef-683a-4475-bd62-e804500a2794",
-    To : toEmail,
-    From : "khadejaa.cs@gmail.com",
-    Subject : "أهلاً ، أنا خديجة شكراً لاشتراكك ",
-    Body : " مرحباً ، أهلا بك في قائمتي البريدية ، أعتقد أن لدي الكثير من الأفكار التي أود مشاركتها معك و التي أتمنى أن تصلك دائماً في الوقت المناسب لها ، تحياتي خديجة"
-}).then(
-  message => alert("Thank You check junk mail|  شكراً لاشتراكك من فضلك تأكد من البريد الغير هام")
-);
-}

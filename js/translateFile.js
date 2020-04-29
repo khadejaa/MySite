@@ -16,6 +16,8 @@ arrLang['en']['services'] = 'My Services';
 arrLang['en']['achieve'] = 'My Last Achievements';
 arrLang['en']['blog'] = 'My Blog';
 
+
+
 // Arabic navbar content
 arrLang['ar']['menu'] = 'القائمة';
 arrLang['ar']['home'] = 'الرئيسية'
@@ -29,6 +31,7 @@ arrLang['ar']['awards'] = 'الجوائز';
 arrLang['ar']['services'] = 'خدماتي';
 arrLang['ar']['achieve'] = 'آخر انجازاتي';
 arrLang['ar']['blog'] = 'مدونتي';
+
 
 //English home section
 arrLang['en']['greating'] = 'Hey! I am'
@@ -292,7 +295,7 @@ arrLang['en']['send'] = 'Send Message'
 arrLang['en']['contactMe'] = 'Contact Me'
 arrLang['en']['Address'] = 'Address'
 arrLang['en']['makkah'] = 'Saudi Arabia, Makkah ,Al Qadi street, 4446'
-arrLang['en']['number'] = 'Contact Number'
+arrLang['en']['number'] = 'Telegram Account'
 arrLang['en']['email'] = 'Email Address'
 arrLang['en']['thanks'] = 'Thanks for contacting Me! I will get back to you soon!'
 
@@ -311,11 +314,12 @@ arrLang['ar']['thanks'] = 'شكراً لتواصلك ، سيتم الرد علي
 //ِEnglish footer section
 arrLang['en']['maillist'] = "Monthly, you'll get some of inspiring and motivating ideas and some reviews about my favorite books."
 arrLang['en']['Subscribe'] = 'Subscribe'
+arrLang['en']['thanksSubscribe']= 'Thanks for subscription! '
 
 //Arabic footer section
 arrLang['ar']['maillist'] = 'شهرياً ستصلك رسائل بأفكار ملهمة ومحفزة وبعض المراجعات لأهم الكتب التي قرأتها'
 arrLang['ar']['Subscribe'] = 'اشتراك'
-
+arrLang['ar']['thanksSubscribe']= 'شكراً لاشتراكك'
 // Process translation
 $(function() {
   $('.translate').click(function() {
