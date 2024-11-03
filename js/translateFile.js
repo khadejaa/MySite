@@ -82,7 +82,7 @@ arrLang['ar']['BachelorDate'] = '2017-2013'
 arrLang['ar']['Bachelor'] = 'بكالوريس علوم الحاسب الآلي'
 arrLang['ar']['UQU'] = 'جامعة أم القرى'
 
-arrLang['ar']['MasterDate'] = 'الآن-2019'
+arrLang['ar']['MasterDate'] = '2024-2019'
 arrLang['ar']['Master'] = 'ماجستير علوم الحاسب الآلي'
 arrLang['ar']['KAU'] = 'جامعة الملك عبدالعزيز'
 
