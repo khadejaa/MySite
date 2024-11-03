@@ -61,7 +61,7 @@ arrLang['en']['BachelorDate'] = '2013-2017'
 arrLang['en']['Bachelor'] = "Bachelor's Degree in Computer Science"
 arrLang['en']['UQU'] = 'Umm Al-Qura University'
 
-arrLang['en']['MasterDate'] = '2019- 2022 (Expected)'
+arrLang['en']['MasterDate'] = '2019- 2024'
 arrLang['en']['Master'] = "Master's Degree in Computer Science"
 arrLang['en']['KAU'] = 'King Abdulaziz University'
 
